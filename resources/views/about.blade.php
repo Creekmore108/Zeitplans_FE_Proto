@@ -17,7 +17,7 @@
       <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
         <!-- Testimonial card-->
         <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
-          <img class="absolute inset-0 h-full w-full object-cover" src="img/logo.svg" alt="">
+          <img class="absolute inset-0 h-full w-full object-cover" src="img/icons/logo.svg" alt="">
           <div class="absolute inset-0 bg-coffee mix-blend-multiply"></div>
           <div class="relative px-8 py-24">
             
