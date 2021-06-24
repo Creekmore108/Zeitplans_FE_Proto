@@ -1,4 +1,4 @@
-<div 
+<!-- <div 
     x-data="{
         show: @entangle($attributes->wire('model'))
     }"
@@ -19,4 +19,4 @@
     
      
     </div>
-</div>
+</div> -->
