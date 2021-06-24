@@ -2,6 +2,7 @@
 <div class="bg-white">
   <main>
   @include('layouts.hero')
+  Test
 
   @include('layouts.logocloud')
 
