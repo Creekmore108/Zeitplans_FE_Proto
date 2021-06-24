@@ -26,7 +26,7 @@
             <footer>
             @include('layouts.footer')
             </footer>
-            <livewire:scripts/>
-            <livewire:contact-modal/>
+            <!-- <livewire:scripts/>
+            <livewire:contact-modal/> -->
     </body>
 </html>
