@@ -16,17 +16,16 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="//unpkg.com/alpinejs" defer></script>
     </head>
     <body class="font-sans antialiased">
             @include('layouts.navigation')
             <main>
                 {{ $slot }}
             </main>
-
-            <footer>
             @include('layouts.footer')
-            </footer>
+          
             <livewire:scripts/>
-            <!-- <livewire:contact-modal/> -->
+            <livewire:contact-modal/>
     </body>
 </html>

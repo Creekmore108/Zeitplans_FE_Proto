@@ -104,7 +104,7 @@
                 The latest news, articles, and resources, sent to your inbox.
               </p>
               @livewire('contact-list')
-              @livewire('job-search-modal')
+             
             </div>
           </div>
         </div>
