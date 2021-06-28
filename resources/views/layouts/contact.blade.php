@@ -32,7 +32,7 @@
         </h2>
         <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
         <x-button x-data="{}" x-on:click="window.livewire.emitTo('contact-modal', 'show')">Get Started</x-button>
-        <!-- <a href="#" class="inline-flex px-4 py-2 h-11 border text-base font-medium rounded-md shadow-sm text-black bg-gradient-to-r from-coffee to-dark-coffee hover:text-white hover:from-dark-coffee hover:to-coffee focus:outline-none  focus:ring-1 focus:ring-dark-coffee focus:border-coffee">
+        <!-- <a href="" x-data="{}" x-on:click="window.livewire.emitTo('contact-modal', 'show')" class="inline-flex px-4 py-2 h-11 border text-base font-medium rounded-md shadow-sm text-black bg-gradient-to-r from-coffee to-dark-coffee hover:text-white hover:from-dark-coffee hover:to-coffee focus:outline-none  focus:ring-1 focus:ring-dark-coffee focus:border-coffee">
           Get started
           </a> -->
         </div>

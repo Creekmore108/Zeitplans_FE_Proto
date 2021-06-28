@@ -1,4 +1,5 @@
 <footer class="bg-blue-gray md:rounded-t-2xl rounded-t-2xl" aria-labelledby="footerHeading">
+<section id="footer">
     <h2 id="footerHeading" class="sr-only">Footer</h2>
     <div class="max-w-7xl bg-blue-gray rounded-t-2xl mx-auto pt-7 pb-5 px-4 sm:px-6 lg:pt-10 lg:px-8">
         <div class="flex  flex-wrap justify-between">
@@ -95,13 +96,14 @@
             </div>
           
           </div>
+
           <div class=" bg-blue-gray">
             <div class="mt-12 xl:mt-0">
-              <h3 class="font-semibold text-base text-gray-100 tracking-wider uppercase">
+              <h3 class=" text-gray-100 text-3xl font-bold tracking-wider uppercase">
                 Subscribe to our email list
               </h3>
-              <p class="mt-4 text-base text-gray-200">
-                The latest news, articles, and resources, sent to your inbox.
+              <p class="mt-4 text-2xl text-gray-200">
+                The latest news and resources, sent to your inbox.
               </p>
               @livewire('contact-list')
              
