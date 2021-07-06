@@ -2,7 +2,7 @@
               <div>
                 <label for="first_name" class="block text-sm font-medium text-gray-700">First Name</label>
                 <div class="mt-1">
-                  <input type="text" name="first_name" id="first_name" wire:model="first_name"  placeholder="First name" class="block w-full shadow-sm sm:text-sm focus:ring-yellow-600 focus:border-yellow-600 border-gray-300 rounded-md">
+                  <input type="text" name="first_name" id="first_name" wire:model="first_name"  placeholder="First name" class="block w-full shadow-sm sm:text-sm focus:ring-yellow-600  focus:border-yellow-600 border-gray-300 rounded-md">
                   @error('first_name') <span class="text-red-600">{{ $message }}</span> @enderror
                 </div>
               </div>

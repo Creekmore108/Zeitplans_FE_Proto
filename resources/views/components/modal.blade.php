@@ -10,7 +10,7 @@
         <div class="absolute inset-0 bg-gray-800 opacity-75" ></div>
     </div>
 
-    <div x-show="show" class="rounded-lg mt-16 bg-coffee overflow-hidden transform sm:w-full sm:mx-auto max-w-lg">
+    <div x-show="show" class="rounded-lg mt-16 bg-yellow-600 overflow-hidden transform sm:w-full sm:mx-auto max-w-lg">
         
         <!-- <div class="absolute top-0 right-0 mr-2 mt-2" > -->
         <a  href="/?#footer"   x-data="{}" x-on:click="window.livewire.emitTo('contact-modal', 'hide')">
