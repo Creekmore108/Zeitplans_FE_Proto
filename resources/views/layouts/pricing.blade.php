@@ -1,7 +1,8 @@
 <!-- Pricing Section -->
-<section id="pricing">  
+
+<section id="pricing" class="mt-3">  
 <div class="bg-gray-100 rounded-2xl">
-  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
     <div class="sm:flex sm:flex-col sm:align-center">
       <h1 class="text-5xl font-extrabold text-gray-900 sm:text-center">Pricing Plans</h1>
       <p class="mt-5 text-xl text-gray-500 sm:text-center">Signup now and get your orginazation on track and manage all your resources in one place.</p>

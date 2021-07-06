@@ -1,5 +1,5 @@
  <!-- FAQ section -->
- <section id="faq">
+ <section id="faq" class="mt-3">
     <div class="relative bg-blue-gray rounded-2xl">
     <div class="h-60 absolute bottom-0 xl:inset-0 xl:h-full xl:w-full">
     <div class="h-full w-full xl:grid xl:grid-cols-2">

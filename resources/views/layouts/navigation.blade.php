@@ -1,10 +1,12 @@
-<nav  class=" border-b border-gray-900 rounded-b-2xl bg-blue-gray">
+
+<div class="py-16">
+<nav  class=" border-b border-gray-900 rounded-b-2xl bg-blue-gray fixed inset-x-0 top-0 h-16 z-50">
   <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
     <div x-data="{ isOpen: false }" class="relative flex items-center justify-between h-16">
       <div class="flex items-center px-2 lg:px-0 ">
         <div class="flex-shrink-0">
           <span class="inline-flex"> 
-          <img class=" lg:block h-16 w-auto mr-4" src="{{ asset('img/icons/logo.svg') }}" alt="Zeitplans">
+          <a href="{{ route('home') }}"> <img class=" lg:block h-16 w-auto mr-4" src="{{ asset('img/icons/logo.svg') }}" alt="Zeitplans"></a>
           <span class="text-white text-5xl mr-16 mt-3">Zeitplans</span></span> 
         </div>
         <div class="hidden lg:block lg:ml-6">
@@ -58,7 +60,7 @@
               <div>
                 <!-- <img class="w-auto h-10" src="{{ asset('img/icons/logo.svg') }}" alt="Zeitplans"> -->
               </div>
-              <div class="bg-red-600">
+              <div>
                 <button 
                     type="button" 
                     class="bg-dark-coffee rounded-md mt-4 mr-3  inline-flex text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-dark-coffee"

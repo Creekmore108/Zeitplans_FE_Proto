@@ -19,6 +19,7 @@
         <!-- <script src="//unpkg.com/alpinejs" defer></script> -->
     </head>
     <body class="font-sans antialiased">
+        
             @include('layouts.navigation')
             <main>
                 {{ $slot }}
@@ -28,5 +29,6 @@
             <livewire:scripts/>
             <livewire:contact-modal/>
             <livewire:job-search-modal/>
+        
     </body>
 </html>

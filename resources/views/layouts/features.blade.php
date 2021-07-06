@@ -1,5 +1,6 @@
 <!-- Gradient Feature Section -->
-<section id="features">
+
+<section id="features" class="mt-3">
     <div class="bg-gradient-to-r from-coffee to-dark-coffee rounded-2xl" >
       <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
         <h2 class="font-extrabold text-4xl text-blue-gray tracking-tight">

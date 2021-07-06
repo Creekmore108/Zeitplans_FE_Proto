@@ -1,5 +1,6 @@
-<footer class="bg-blue-gray md:rounded-t-2xl rounded-t-2xl" aria-labelledby="footerHeading">
 <section id="footer">
+<footer class="bg-blue-gray md:rounded-t-2xl rounded-t-2xl" aria-labelledby="footerHeading">
+
     <h2 id="footerHeading" class="sr-only">Footer</h2>
     <div class="max-w-7xl bg-blue-gray rounded-t-2xl mx-auto pt-7 pb-5 px-4 sm:px-6 lg:pt-10 lg:px-8">
         <div class="flex  flex-wrap justify-between">
@@ -137,3 +138,5 @@
           </div>
       </div>
   </footer>
+
+  

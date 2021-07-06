@@ -1,6 +1,6 @@
-<section id="contact">
+<section id="contact" class="mt-3">
     <!-- Contact Section -->
-    <div class="relative bg-white">
+    <div class="relative bg-white py-16">
       <div class="lg:absolute lg:inset-0">
         <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="img/officeWork.jpg" alt="">
@@ -39,3 +39,4 @@
       </div>
     </div>
     <!-- <x-button x-data="{}" x-on:click="window.livewire.emitTo('contact-modal', 'show')">Get Started</x-button> -->
+</div>
