@@ -23,7 +23,7 @@
                 </p>
                 <div class="mt-6">
                 <x-button x-data="{}" x-on:click="window.livewire.emitTo('contact-modal', 'show')">Get Started</x-button>
-                  <!-- <a href="#" class="inline-flex px-4 py-2 text-base font-medium rounded-md shadow-sm text-black bg-gradient-to-r from-coffee to-dark-coffee hover:text-white hover:from-dark-coffee hover:to-coffee focus:outline-none  focus:ring-1 focus:ring-dark-coffee focus:border-coffee">
+                  <!-- <a href="#" class="inline-flex px-4 py-2 text-base font-medium rounded-md shadow-sm text-black bg-gradient-to-r from-yellow-600 to-yellow-800 hover:text-white hover:from-yellow-800 hover:to-yellow-600 focus:outline-none  focus:ring-1 focus:ring-yellow-800 focus:border-yellow-600">
                     Get started
                   </a> -->
                 </div>
@@ -77,7 +77,7 @@
                 </p>
                 <div class="mt-6">
                 <x-button x-data="{}" x-on:click="window.livewire.emitTo('contact-modal', 'show')">Get Started</x-button>
-                  <!-- <a href="#" class="inline-flex px-4 py-2 text-base font-medium rounded-md shadow-sm text-black bg-gradient-to-r from-coffee to-dark-coffee hover:text-white hover:from-dark-coffee hover:to-coffee focus:outline-none  focus:ring-1 focus:ring-dark-coffee focus:border-coffee">
+                  <!-- <a href="#" class="inline-flex px-4 py-2 text-base font-medium rounded-md shadow-sm text-black bg-gradient-to-r from-yellow-600 to-yellow-800 hover:text-white hover:from-yellow-800 hover:to-yellow-600 focus:outline-none  focus:ring-1 focus:ring-yellow-800 focus:border-yellow-600">
                     Get started
                   </a> -->
                 </div>

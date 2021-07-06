@@ -1,12 +1,12 @@
 <x-app-layout>
 <div>
   <div class=" lg:inset-0  flex">
-      <div>
-        <img src="/img/newsworthy.png"  width="400" height="400" alt="">
+      <div class="hidden:xs">
+        <img src="/img/newsworthy.png"  width="400" height="400" alt="" class="mt-0">
       </div>
 
       <div class=" md:pl-16 mb-0 sm:pl-0 xs:pl-0">
-        <div class="text-base mb-12 max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0 md:mt-10 sm:mt-0 xs:mt-0 bg-coffee bg-opacity-75 p-5 rounded-2xl">
+        <div class="text-base mb-12 max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0 md:mt-10 sm:mt-0 xs:mt-0 bg-yellow-600 bg-opacity-75 p-5 rounded-2xl">
         <!-- <div class="relative inset-y-0 left-1/2 w-full rounded-r-3xl lg:right-72 bg-pink-900">1</div> -->
           <svg class="absolute xs:invisible sm:invisible lg:visible top-12  lg:-right-8 lg:left-auto lg:top-24 mr-28" width="404" height="392" fill="none" viewBox="0 0 404 392">
             <defs>

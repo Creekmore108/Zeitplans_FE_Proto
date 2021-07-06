@@ -18,7 +18,7 @@
         <!-- Testimonial card-->
         <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
           <img class="absolute inset-0 h-full w-full object-cover" src="img/icons/logo.svg" alt="">
-          <div class="absolute inset-0 bg-coffee mix-blend-multiply"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-yellow-800 to-yellow-600 mix-blend-multiply"></div>
           <div class="relative px-8 py-24">
             
           </div>
