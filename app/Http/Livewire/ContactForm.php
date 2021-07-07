@@ -20,11 +20,12 @@ class ContactForm extends Component
         $validatedData = $this->validate([
             'first_name' => 'required',
             'last_name' => '',
-            'email' => 'required|email',
             'organization' => '',
             'phone' => '',
             'content' => 'required',
             'reference' => '',
+            'email' => 'required|email',
+            
         ]);
 
         Contact::create($validatedData);
