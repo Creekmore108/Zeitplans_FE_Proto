@@ -5,15 +5,16 @@ namespace App\Http\Livewire;
 use Livewire\Component;
 use App\models\Contact;
 
+
 class ContactForm extends Component
 {
     public $first_name;
     public $last_name;
-    public $email;
     public $organization;
     public $phone;
     public $content;
     public $reference;
+    public $email;
 
     public function submit()
     {
@@ -27,7 +28,7 @@ class ContactForm extends Component
             'email' => 'required|email',
             
         ]);
-
+        // dd($validatedData);
         Contact::create($validatedData);
 
         return redirect('/');

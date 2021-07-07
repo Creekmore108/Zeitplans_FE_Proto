@@ -14,7 +14,7 @@
             </h2>
             <p class="mt-4 text-lg text-gray-700 sm:mt-3">
               We’d love to hear from you! <br>Send us a message using this form, or email us.
-              <p class="text-gray-900 text-lg">Admin@Zeitplans.com</p>
+              <p class="text-yellow-800 text-lg">Admin@Zeitplans.com</p>
             </p>
             @livewire('contact-form')
           </div>
