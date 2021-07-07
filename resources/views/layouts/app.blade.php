@@ -14,19 +14,21 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-        <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
-        <script src="https://unpkg.com/alpinejs" defer></script>
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HE7JZ59HX3"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLH0NXKC0P"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-HE7JZ59HX3');
+        gtag('config', 'G-VLH0NXKC0P');
         </script>
+
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="https://unpkg.com/alpinejs" defer></script>
+
+        
     </head>
     <body class="font-sans antialiased">
         
