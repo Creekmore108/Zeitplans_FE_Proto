@@ -18,7 +18,7 @@ class ContactForm extends Component
 
     public function submit()
     {
-        $validatedData = $this->validate([
+        $this->validate([
             'first_name' => 'required',
             'last_name' => '',
             'organization' => '',
@@ -28,8 +28,16 @@ class ContactForm extends Component
             'email' => 'required|email',
             
         ]);
-        // dd($validatedData);
-        Contact::create($validatedData);
+        
+        Contact::create([
+            'first_name' => $this->first_name,
+            'last_name'  => $this->last_name,
+            'organization' => $this->organization,
+            'phone' => $this->phone,
+            'content' => $this->content,
+            'reference' => $this->reference,
+            'email' => $this->email,
+        ]);
 
         return redirect('/');
     }
