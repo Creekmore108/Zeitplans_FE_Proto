@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <!-- allows mixed content http & https -->
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
         <title>{{ config('app.name', 'Zeitplans') }}</title>
 
@@ -18,7 +20,7 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
-        <!-- <script src="https://unpkg.com/alpinejs" defer></script> -->
+        <script src="https://unpkg.com/alpinejs" defer></script>
 
         
     </head>
